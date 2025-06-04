@@ -150,7 +150,7 @@ function App() {
     <main class="flex h-fit min-h-screen w-screen flex-col gap-4 bg-linear-to-bl from-cyan-400 to-cyan-700 p-3 text-center text-white lg:px-96">
       <section class="flex justify-between rounded-md bg-cyan-600 p-4 drop-shadow-md">
         <div class="w-10">home</div>
-        <h1 class="debug-green">shitty weather</h1>
+        <h1 class="text-xl text-shadow-md/30">shitty weather</h1>
         <div class="w-10">...</div>
       </section>
       <section class="h-36 rounded-md bg-cyan-600 p-2 drop-shadow-md">
