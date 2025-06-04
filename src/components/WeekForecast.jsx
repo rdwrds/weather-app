@@ -22,7 +22,7 @@ const WeekForecast = ({ periods, getDecal }) => {
   //https://lucide.dev/icons/categories#weather
 
   return (
-    <div className="flex w-full flex-row justify-center gap-1 px-2 lg:col-span-4 lg:row-span-2 lg:row-start-3 lg:m-0 lg:px-0">
+    <div className="flex w-full flex-row justify-center gap-1 px-2 lg:col-span-4 lg:row-span-2 lg:row-start-3 lg:m-0 lg:p-4">
       {weekOne.map((day) => {
         return (
           //                                                                ew
