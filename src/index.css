@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//idk why these exist lol
+@utility debug {
+  outline: 2px solid #ff0000;
+  outline-offset: 2px;
+}
+
+/* @utility debug-green {
+  outline: 2px solid #00ff00;
+  outline-offset: 2px;
+}
+
+@utility debug-blue {
+  outline: 2px solid #0000ff;
+  outline-offset: 2px;
+} */
+
+.debug {
+  outline: 2px solid rgba(255, 0, 0, 0.25);
+  outline-offset: 2px;
+}
+
+.debug-green {
+  outline: 2px solid rgba(0, 255, 0, 0.25);
+  outline-offset: 2px;
+}
+
+.debug-blue {
+  outline: 2px solid rgba(0, 0, 255, 0.25);
+  outline-offset: 2px;
+}
