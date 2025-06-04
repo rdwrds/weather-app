@@ -34,7 +34,7 @@ function App() {
   */
 
   const fetchLatLong = async () => {
-    const url = `http://api.openweathermap.org/geo/1.0/zip?zip=${zipcode.current},US&appid=${import.meta.env.VITE_ZIPCODE_KEY}`;
+    const url = `https://api.openweathermap.org/geo/1.0/zip?zip=${zipcode.current},US&appid=${import.meta.env.VITE_ZIPCODE_KEY}`;
     const options = {
       method: "GET",
       headers: {
