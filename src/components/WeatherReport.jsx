@@ -151,14 +151,15 @@ const WeatherReport = ({ gridData, forecastData }) => {
     return <h1>Loading...</h1>;
   } else {
     return (
-      <section class="relative z-1 my-auto flex h-min grid-flow-col grid-cols-4 grid-rows-4 flex-col gap-3 p-3 text-shadow-lg/50 lg:grid lg:h-64 lg:w-114 lg:gap-3">
+      <section class="relative z-1 my-auto flex h-fit w-full grid-flow-col grid-cols-4 grid-rows-4 flex-col gap-3 p-3 text-shadow-lg/50 lg:grid lg:h-64 lg:w-114 lg:gap-3">
         <video
           muted
           loop={true}
           autoPlay
+          playsInline
           ref={videoRef}
           class={
-            "absolute top-0 right-0 left-0 -z-1 rounded-xl p-0 drop-shadow-xl/30 lg:h-full"
+            "absolute top-0 right-0 left-0 -z-1 h-full w-full rounded-xl object-cover p-0 drop-shadow-xl/30 lg:h-full"
           }
         >
           <source src={videoURL} type="video/mp4" />
