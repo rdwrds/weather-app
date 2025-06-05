@@ -147,7 +147,7 @@ function App() {
 
   var regex = /^(\d{5})?$/;
   return (
-    <main class="flex h-fit min-h-screen w-screen flex-col gap-4 bg-linear-to-bl from-cyan-400 to-cyan-700 p-3 text-center text-white lg:px-96">
+    <main class="lg:px-auto flex h-fit min-h-screen w-screen flex-col gap-4 bg-linear-to-bl from-cyan-400 to-cyan-700 p-2 text-center text-white md:px-40">
       <section class="flex justify-between rounded-md bg-cyan-600 p-4 drop-shadow-md">
         <div class="w-10">home</div>
         <h1 class="text-xl text-shadow-md/30">shitty weather</h1>
