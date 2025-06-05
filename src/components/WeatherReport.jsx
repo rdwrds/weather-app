@@ -156,6 +156,7 @@ const WeatherReport = ({ gridData, forecastData }) => {
           muted
           loop={true}
           autoPlay
+          playsInline
           ref={videoRef}
           style={{ pointerEvents: "none" }}
           class={
